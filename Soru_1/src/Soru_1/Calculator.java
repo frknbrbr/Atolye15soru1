@@ -39,9 +39,6 @@ public class Calculator {
 		return -1;
 	}
 
-	public void calculateHelper(Operator operator, Double number) {
-
-	}
 
 	public void calculateHelper(Operator operator, Double number1, Double number2) {
 		if (parser.getOperatorStack().peek().geType() == Type.MINUS) {
